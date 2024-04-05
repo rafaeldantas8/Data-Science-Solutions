@@ -1,0 +1,160 @@
+.. legal_analytics documentation master file, created by
+   sphinx-quickstart on Fri Mar 29 20:30:34 2024.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Welcome to the Legal Analytics Project Documentation
+====================================================
+
+This documentation provides a comprehensive guide to the Legal Analytics project, aimed at analyzing legal outcomes against our client (a bank) and establishing an effective agreement policy.
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Table of Contents:
+
+   introduction
+   getting_started
+   analysis_guide
+   agreement_policy
+   api_reference
+   how_to_contribute
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
+=================
+
+Data Science Solutions - Legal Analytics 
+=================
+
+
+Introduction
+============
+The Legal Analytics project is designed to leverage data science and legal analytics to minimize verdicts against our banking client and formulate a strategic agreement policy. By analyzing past legal cases, identifying patterns, and applying predictive analytics, we aim to reduce financial losses and improve negotiation outcomes.
+
+
+Getting Started
+===============
+This section covers the initial setup required to start working with the Legal Analytics project. It includes steps to configure your analysis environment, install necessary dependencies, and execute a basic analysis script.
+
+
+Analysis Guide
+==============
+Here, we detail the methodologies and processes for conducting legal case analyses. We cover data collection, preprocessing, feature engineering, and deploying machine learning models to predict case outcomes.
+
+
+API Reference
+=============
+Find a detailed reference of the legal_analytics API here, including:
+
+- Available modules
+- Classes and functions
+- Parameters and return values
+- Usage examples
+
+
+Modules
+=======
+The legal_analytics project is structured into several modules, each responsible for a specific part of the project's overall functionality. This section provides an overview of each module and links to their detailed documentation.
+
+
+How to Contribute
+=================
+Interested in contributing to legal_analytics? Fantastic! This section provides a guide on how you can contribute, including:
+
+- How to report bugs
+- Suggesting improvements
+- Contributing code
+- Contributor conduct guidelines
+
+
+API Reference
+=============
+For developers interested in extending the project or integrating it with other software, this section provides a comprehensive reference of the project's API, including available endpoints, parameters, and sample requests and responses.
+
+
+How to Contribute
+=================
+Contributions to the Legal Analytics project are welcome! This section explains how to report issues, submit improvements, and provide feedback. We outline the process for contributing code, documentation, and ideas to help the project grow.
+
+Environment Setup and Notebook Execution
+========================================
+
+This section guides you through the steps necessary to set up your development environment and run the `projeto_legal_analytics.ipynb` notebook, essential for data analysis in the Legal Analytics project.
+
+Environment Setup
+-----------------
+1. Clone the project repository to obtain the latest version of the notebook and data files.
+2. Ensure you have Python 3.8 or higher installed.
+3. Install the necessary dependencies using the command: `pip install -r requirements.txt`.
+
+Running the Notebook
+--------------------
+1. Open the terminal (or Anaconda Prompt, if you are using Anaconda) and navigate to the directory where the notebook is saved.
+2. Start Jupyter Notebook or JupyterLab with the command: `jupyter notebook` or `jupyter lab`.
+3. In the Jupyter interface, locate and open the file `projeto_legal_analytics.ipynb`.
+4. Execute the notebook cells sequentially to perform the analysis.
+
+Additional Notes
+----------------
+- Make sure to read the notes in each notebook cell to understand the purpose of each analysis and how the data are manipulated.
+- If you encounter problems installing dependencies, check if Python and pip are up to date.
+
+Data Detailing
+==============
+Data Sources
+------------
+This project utilizes publicly available legal case data, sourced from government databases and public records. These datasets include anonymized case outcomes, filings, and judicial decisions. All data used complies with privacy laws and regulations, ensuring that no personal or sensitive information is disclosed.
+
+Data Structure
+--------------
+The data is structured in tabular format, with columns representing case attributes such as case ID, filing date, outcome, and involved parties. Special codes in the data, like outcome codes, are defined in a separate lookup table for ease of analysis. Data types include integers for case IDs, dates for filing and decision dates, and strings for textual information like case descriptions.
+
+Code Style Guide
+================
+Coding Standards
+----------------
+We adhere to PEP 8 guidelines for Python code in this project. Consistency in naming conventions (e.g., snake_case for variables and functions, CamelCase for classes) and code layout is key to maintainability.
+
+Comments and Code Documentation
+-------------------------------
+Comments and documentation within the codebase are crucial for understanding the purpose and logic behind code blocks. Functions, classes, and complex logic blocks should be accompanied by concise docstrings and comments.
+
+Software Version and Dependencies
+=================================
+Dependency List
+---------------
+A `requirements.txt` file is provided at the root of the project repository, listing all necessary Python libraries and their versions to ensure project compatibility.
+
+Version Compatibility
+---------------------
+This project is compatible with Python 3.8 and above. Specific library versions included in `requirements.txt` should be adhered to, avoiding conflicts and ensuring consistent functionality across environments.
+
+Testing Procedures
+==================
+Automated Tests
+---------------
+Automated tests are available to validate code integrity and functionality. Instructions for running these tests are provided in the `README.md` file, covering unit tests and integration tests.
+
+Results Validation
+------------------
+Guidance on validating analytical results includes checking against known benchmarks and using performance metrics (e.g., accuracy, precision, recall for predictive models) detailed in the analysis documentation.
+
+Ethical and Privacy Considerations
+==================================
+Data Analysis Ethics
+--------------------
+Ethical considerations in data analysis are paramount, especially given the sensitive nature of legal data. Analyses are conducted with the utmost respect for privacy and without bias.
+
+Compliance and Privacy
+----------------------
+This project strictly follows data privacy laws and regulations, such as GDPR in Europe and LGPD in Brazil, ensuring all public data used is in compliance with these laws.
+
+Reporting Issues and Requesting Features
+========================================
+Feedback Process
+----------------
+We encourage contributions and feedback on the project. A clear process for reporting bugs, requesting features, or general feedback is outlined in the `CONTRIBUTING.md` file, including contact information and issue reporting guidelines.
